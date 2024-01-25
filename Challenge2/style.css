@@ -49,25 +49,26 @@ text-transform, font-size, letter-spacing & color
 
 .container {
   width: 80%;
-
   margin: 4em auto;
+  line-height: 1.5;
 }
 
 .card {
   background: #63a8f6;
   padding: 1em;
-  color: #fff;
+  color: #2c2e2f;
 }
 
 span {
   justify-self: center;
   align-self: center;
-  background-color: #eb5a5a;
+  background-color: #cee7f0;
 }
 
 p.date {
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #2c2e2f;
 }
 
 h3 {

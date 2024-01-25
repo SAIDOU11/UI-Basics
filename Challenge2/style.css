@@ -47,14 +47,30 @@ width, background, padding, margin, letter-spacing,
 text-transform, font-size, letter-spacing & color
 */
 
-/* .container {
+.container {
+  width: 80%;
+
+  margin: 4em auto;
 }
 
 .card {
+  background: #63a8f6;
+  padding: 1em;
+  color: #fff;
+}
+
+span {
+  justify-self: center;
+  align-self: center;
+  background-color: #eb5a5a;
 }
 
 p.date {
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h3 {
-} */
+  margin: 0.5em 0;
+  font-size: 1.5rem;
+}

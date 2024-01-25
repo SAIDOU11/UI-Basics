@@ -55,14 +55,14 @@ text-transform, font-size, letter-spacing & color
 
 .card {
   background: #63a8f6;
-  padding: 1em;
+  padding: 1em 0;
   color: #2c2e2f;
 }
 
 span {
   justify-self: center;
   align-self: center;
-  background-color: #cee7f0;
+  background-color: #2a2a2b;
 }
 
 p.date {

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  margin-top: 3em;
+  border-left: 0.7em solid gray;
+  padding: 0 3em;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  color: #9d9d9d;
+  margin: 0.5em 0 2em;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+
+input[type="text"],
+textarea {
+  margin-bottom: 1.5em;
+  display: block;
+  padding: 0.5em;
+  width: 80%;
+  background: gray;
+  border: none;
+  border-bottom: 1px solid #333333;
+  outline: 0;
+  color: black;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid white;
+}
+
+input[type="submit"] {
+  background: gray;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  border-radius: 2em;
+  font-size: 0.8em;
+}
+
+.colors {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5em;
+}
+
+.colors div {
+  width: 2em;
+  height: 2em;
+  background: gray;
+  border-radius: 50%;
+  margin-bottom: 0.4em;
+  margin-right: 0.3em;
+  float: left;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.colors div:nth-child(1) {
+  background-color: #1c2022;
+  color: #fff;
+}
+
+.colors div:nth-child(2) {
+  background-color: #9d9d9d;
+}
+
+.colors div:nth-child(3) {
+  background-color: #2b3337;
+}
+
+.colors div:nth-child(4) {
+  background-color: #ff01ff;
+}
+
+.colors div:nth-child(5) {
+  background-color: white;
+  color: black;
+}
+
+/* fixes */
+
+body {
+  background: #9d9d9d;
+  color: #1c2022;
+}
+
+.container {
+  border-left: 0.7em solid;
+}
+
+p {
+  color: #040404;
+}
+
+input[type="text"],
+textarea {
+  background: white;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: #ff01ff 3px solid;
+}
+
+input[type="submit"] {
+  font-weight: 700;
+  background-color: #1c2022;
+}

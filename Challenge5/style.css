@@ -60,15 +60,15 @@ Fixes Below
 */
 
 body {
-  grid-gap: auto;
+  grid-gap: 2em;
 }
 
 .content {
-  background: auto;
-  padding: auto;
+  background: #254885;
+  padding: 1.5em;
 }
 
 h1 {
-  margin-left: 1em;
-  font-size: auto;
+  margin-left: 0;
+  font-size: 2.3rem;
 }
